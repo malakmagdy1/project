@@ -13,7 +13,7 @@ final ThemeData lightTheme = ThemeData(
     titleMedium: AppFonts.text18,
   ),
   colorScheme: ColorScheme.light(
-    onBackground: Colors.black, // text color for bodyText
+    onSurface: Colors.black, // text color for bodyText
     onPrimary: Colors.white, // text color for AppBar, buttons, etc.
   ),
 );
@@ -29,7 +29,7 @@ final ThemeData darkTheme = ThemeData(
     titleMedium: AppFonts.text18,
   ),
   colorScheme: ColorScheme.dark(
-    onBackground: Colors.white,
+    onSurface: Colors.white,
     onPrimary: Colors.black,
   ),
 );

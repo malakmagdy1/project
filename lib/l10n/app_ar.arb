@@ -1,0 +1,192 @@
+{
+  "@@locale": "ar",
+  "welcomeTitle": "اهلاً بك في MoveEZ",
+  "loginButton": "تسجيل",
+  "firstName": "الاسم الأول",
+  "lastName": "الاسم الأخير",
+  "email": "البريد الإلكتروني",
+  "phoneNumber": "رقم الهاتف",
+
+  "id_upload": "رفع الهوية",
+  "id_upload_desc": "اسحب وأفلت أو اضغط للتحميل",
+
+  "selectPackageTitle": "اختر الباقة",
+  "floorFrom": "من طابق",
+  "floorTo": "إلى طابق",
+  "elevator": "المصعد",
+  "numRooms": "عدد الغرف",
+  "numBoxes": "عدد الصناديق",
+  "nextButton": "متابعة",
+
+  "setupTripTitle": "إعداد الرحلة",
+  "pickupAddress": "عنوان الاستلام",
+  "deliveryAddress": "عنوان التسليم",
+  "street": "الشارع",
+  "city": "المدينة",
+  "state": "المنطقة / الولاية",
+  "zipCode": "الرمز البريدي",
+  "confirmLocation": "تأكيد الموقع",
+
+  "selectDateTitle": "اختر التاريخ",
+  "today": "اليوم",
+  "tomorrow": "غداً",
+  "chooseTime": "اختر الوقت",
+  "searchOffers": "ابحث عن عرض",
+
+  "offersTitle": "العروض",
+  "acceptOffer": "قبول العرض",
+  "viewDetails": "عرض التفاصيل",
+  "priceCurrency": "دولار",
+  "chatTitle": "الدردشة مع شركة النقل السريع",
+  "paymentMethodTitle": "اختر طريقة الدفع",
+  "paymentMethodSubtitle": "اختر كيف تحب أن تدفع مقابل الخدمة.",
+  "creditCardOption": "بطاقة ائتمان/خصم",
+  "creditCardSubtitle": "ادفع بأمان عبر الإنترنت باستخدام فيزا أو ماستركارد أو بطاقات أخرى.",
+  "cashPaymentOption": "الدفع نقدًا",
+  "cashPaymentSubtitle": "ادفع للسائق مباشرةً نقدًا بعد اكتمال الخدمة.",
+  "continueToSummary": "متابعة إلى الملخص",
+
+  "addCardTitle": "أضف تفاصيل بطاقتك",
+  "addCardSubtitle": "يتم تشفير معلومات الدفع الخاصة بك وتخزينها بأمان.",
+  "cardNumber": "رقم البطاقة",
+  "cardholderName": "اسم حامل البطاقة",
+  "cardholderHint": "الاسم كما يظهر على البطاقة",
+  "expiryDate": "تاريخ الانتهاء",
+  "cvv": "رمز CVV",
+  "saveCard": "احفظ هذه البطاقة لمدفوعات أسرع في المستقبل",
+  "addCardButton": "إضافة البطاقة",
+
+  "reviewTitle": "مراجعة وتأكيد الحجز",
+  "bookingSummary": "ملخص الحجز",
+  "serviceFee": "رسوم الخدمة",
+  "serviceTax": "ضريبة الخدمة",
+  "totalAmountDue": "المبلغ الإجمالي المستحق",
+  "paymentMethod": "طريقة الدفع",
+  "change": "تغيير",
+  "confirmPayment": "ادفع {amount} و أكد",
+
+  "register_as": "سجّل كـ...",
+  "choose_your_path": "اختر مسارك",
+  "independent_vehicle_owner": "مالك مركبة مستقل",
+  "independent_vehicle_owner_desc": "أدِر أسطولك، حدّد أسعارك، واقبل الطلبات مباشرةً.",
+  "registered_transport_company": "شركة نقل مسجّلة",
+  "registered_transport_company_desc": "سجّل شركتك، عرّف خدماتك، ووسّع نطاق وصولك.",
+  
+  "select_vehicles": "اختيار المركبات",
+  "choose_vehicle_types": "اختر أنواع المركبات",
+  "select_vehicles_desc": "اختر المركبات والكميات المطلوبة لنقلك.",
+
+  "small_transport": "نص نقل (بيك أب / فان)",
+  "small_transport_desc": "مثالية لنقل شقق صغيرة أو عنصر واحد.",
+  "small_transport_capacity": "حتى 1.5 طن",
+
+  "medium_transport": "متوسطة النقل (شاحنة صندوقية)",
+  "medium_transport_desc": "مناسبة لشقق 1-2 غرفة نوم أو معدات مكتبية.",
+  "medium_transport_capacity": "حتى 3 أطنان",
+
+  "heavy_transport": "شاحنة كبيرة (صندوقية كبيرة)",
+  "heavy_transport_desc": "مثالية للمنازل الكبيرة أو النقل التجاري أو البضائع الثقيلة.",
+  "heavy_transport_capacity": "أكثر من 5 أطنان",
+
+  "next": "التالي",
+  
+  "company_registration": "تسجيل الشركة",
+
+  "select_services_offered": "اختر الخدمات المقدمة",
+  "furniture_moving": "نقل الأثاث",
+  "general_goods_cargo": "البضائع والشحن العام",
+
+  "company_details": "تفاصيل الشركة",
+  "company_name": "اسم الشركة",
+  "company_name_value": "موف فلو لوجستكس",
+  "company_address": "عنوان الشركة",
+  "company_address_value": "123 شارع رئيسي، أي مدينة، الولايات المتحدة 12345",
+  "phone_number": "رقم الهاتف",
+  "phone_number_value": "(123) 456-7890",
+  "email_address": "البريد الإلكتروني",
+  "email_address_value": "contact@moveflow.com",
+
+  "business_license_upload": "رفع رخصة العمل",
+  "business_license_upload_desc": "اسحب وأفلت أو اضغط للتحميل",
+
+  "register_company": "تسجيل الشركة",
+
+
+
+  "company_profile": "ملف الشركة",
+
+  "owner_name": "اسم المالك",
+  "owner_name_value": "جين دو",
+
+  "license_number": "رقم الترخيص",
+  "license_number_value": "MVF-2023-XYZ-123",
+
+  "contact_information": "معلومات الاتصال",
+  "security": "الأمان",
+
+  "password": "كلمة المرور",
+  "edit": "تعديل",
+  "save_changes": "حفظ التغييرات",
+  
+  "notifications": "الإشعارات",
+
+  "new_message": "رسالة جديدة من العميل {clientName}.",
+  "new_message_desc": "بخصوص عرض السعر الأخير الخاص بك للطلب #{jobId}",
+  "new": "جديد",
+
+  "job_status_update": "تم تحديث حالة الطلب #{jobId}.",
+  "job_status_update_desc": "قام العميل بتأكيد وقت الاستلام. يرجى المراجعة",
+
+  "price_offer_sent": "تم إرسال عرض السعر للطلب #{jobId}.",
+  "price_offer_sent_desc": "عرض لنقل أثاث المكتب إلى العميل",
+
+  "critical_maintenance": "تم جدولة صيانة نظام حرجة.",
+  "critical_maintenance_desc": "سيتم إيقاف خدماتنا مؤقتًا في {date} الساعة {time}",
+  
+  "request_details": "تفاصيل الطلب",
+
+  "client_name": "سارة جونسون",
+  "request_id": "معرّف الطلب: {requestId}",
+  "new_request": "طلب جديد",
+
+  "pickup": "الاستلام:",
+  "pickup_address": "123 شارع مابل، سيتي فيل، كاليفورنيا",
+
+  "dropoff": "التسليم:",
+  "dropoff_address": "456 شارع أوك، تاونزفيل، كاليفورنيا",
+
+  "service_type": "نوع الخدمة:",
+  "service_type_value": "نقل منزل كامل",
+
+  "date_time": "التاريخ / الوقت",
+  "date_time_value": "15 ديسمبر 2023، 10:00 صباحًا",
+
+  "notes": "ملاحظات:",
+  "notes_value": "توجد عناصر قابلة للكسر خاصة الزجاجيات. يحتاج الأمر لعناية إضافية مع الأثاث العتيق.",
+
+  "send_offer": "إرسال العرض",
+  "manage_job": "إدارة الطلب",
+  
+  "financial_summary": "ملخص مالي",
+  "overall_performance": "ملخص الأداء الكلي",
+  "total_amount": "{amount} ر.س",
+  "profit_share": "نصيب الأرباح",
+  "original_amount": "المبلغ الأصلي بعملة ر.س",
+  "actions": "الإجراءات",
+  "view_report": "عرض التقرير",
+
+  "order_id": "رقم الطلب {orderId} {date}",
+  "order_type": "نوع الطلب",
+  "delivery": "توصيل",
+  "shipping": "شحن",
+  "previous_share": "النصيب السابق: {amount} ر.س",
+  "company_share": "نصيب الشركة",
+  "client_share": "نصيب العميل",
+  "total_goods": "إجمالي السلع",
+  "total_amount_value": "المبلغ الكلي: {amount} ر.س",
+  "payment_invoice": "دفع الفاتورة",
+
+  "order_details": "الطلبات التفصيلية"
+
+}
+

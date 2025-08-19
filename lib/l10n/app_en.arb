@@ -1,0 +1,201 @@
+{
+  "@@locale": "en",
+  "welcomeTitle": "Welcome to MoveEZ",
+  "loginButton": "Login",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "email": "Email",
+  "phoneNumber": "Phone Number",
+
+   "id_upload": "ID Upload",
+  "id_upload_desc": "Drag & drop or click to upload",
+
+  "selectPackageTitle": "Choose Your Package",
+  "floorFrom": "From Floor",
+  "floorTo": "To Floor",
+  "elevator": "Elevator",
+  "numRooms": "Number of Rooms",
+  "numBoxes": "Number of Boxes",
+  "nextButton": "Next",
+
+  "setupTripTitle": "Setup Your Trip",
+  "pickupAddress": "Pickup Address",
+  "deliveryAddress": "Delivery Address",
+  "street": "Street",
+  "city": "City",
+  "state": "State / Province",
+  "zipCode": "Postal Code",
+  "confirmLocation": "Confirm Location",
+
+  "selectDateTitle": "Select Date",
+  "today": "Today",
+  "tomorrow": "Tomorrow",
+  "chooseTime": "Choose Time",
+  "searchOffers": "Search for Offers",
+
+  "offersTitle": "Offers",
+  "acceptOffer": "Accept Offer",
+  "viewDetails": "View Details",
+  "priceCurrency": "USD",
+  "chatTitle": "Chat with Fast Transport Company",
+  "paymentMethodTitle": "Select Payment Method",
+  "paymentMethodSubtitle": "Choose how you'd like to pay for the service.",
+  "creditCardOption": "Credit/Debit Card",
+  "creditCardSubtitle": "Pay securely online with Visa, Mastercard, and other major cards.",
+  "cashPaymentOption": "Cash Payment",
+  "cashPaymentSubtitle": "Pay the driver directly in cash after the service is completed.",
+  "continueToSummary": "Continue to Summary",
+
+  "addCardTitle": "Add Your Card Details",
+  "addCardSubtitle": "Your payment information is encrypted and stored securely.",
+  "cardNumber": "Card Number",
+  "cardholderName": "Cardholder Name",
+  "cardholderHint": "Name as it appears on the card",
+  "expiryDate": "Expiry Date",
+  "cvv": "CVV",
+  "saveCard": "Save this card for faster payments in the future",
+  "addCardButton": "Add Card",
+
+  "reviewTitle": "Review & Confirm Your Booking",
+  "bookingSummary": "Booking Summary",
+  "serviceFee": "Service Fee",
+  "serviceTax": "Service Tax",
+  "totalAmountDue": "Total Amount Due",
+  "paymentMethod": "Payment Method",
+  "change": "Change",
+  "confirmPayment": "Pay {amount} and Confirm",
+
+  "register_as": "Register as a...",
+  "choose_your_path": "Choose Your Path",
+  "independent_vehicle_owner": "Independent Vehicle Owner",
+  "independent_vehicle_owner_desc": "Manage your fleet, set your rates, and accept jobs directly.",
+  "registered_transport_company": "Registered Transport Company",
+  "registered_transport_company_desc": "Register your company, define your service offerings, and expand your reach.",
+
+  "select_vehicles": "Select Vehicles",
+  "choose_vehicle_types": "Choose your vehicle types",
+  "select_vehicles_desc": "Select the vehicles and quantities required for your move.",
+  
+  "small_transport": "Pickup / Van",
+  "small_transport_desc": "Ideal for small apartment moves or single-item transport.",
+  "small_transport_capacity": "Up to 1.5 tons",
+
+  "medium_transport": "Box Truck",
+  "medium_transport_desc": "Suitable for 1-2 bedroom apartments or office equipment.",
+  "medium_transport_capacity": "Up to 3 tons",
+
+  "heavy_transport": "Large Box Truck",
+  "heavy_transport_desc": "Perfect for large homes, commercial moves, or heavy cargo.",
+  "heavy_transport_capacity": "Over 5 tons",
+
+  "next": "Next",
+  
+  "company_registration": "Company Registration",
+
+  "select_services_offered": "Select Services Offered",
+  "furniture_moving": "Furniture Moving",
+  "general_goods_cargo": "General Goods & Cargo",
+
+  "company_details": "Company Details",
+  "company_name": "Company Name",
+  "company_name_value": "MoveFlow Logistics",
+  "company_address": "Company Address",
+  "company_address_value": "123 Main Street, Anytown, USA 12345",
+  "phone_number": "Phone Number",
+  "phone_number_value": "(123) 456-7890",
+  "email_address": "Email Address",
+  "email_address_value": "contact@moveflow.com",
+
+  "business_license_upload": "Business License Upload",
+  "business_license_upload_desc": "Drag & drop or click to upload",
+
+  "register_company": "Register Company",
+
+
+  "company_profile": "Company Profile",
+
+  "owner_name": "Owner Name",
+  "owner_name_value": "Jane Doe",
+
+  "license_number": "License Number",
+  "license_number_value": "MVF-2023-XYZ-123",
+
+  "contact_information": "Contact Information",
+  "security": "Security",
+
+  "password": "Password",
+  "edit": "Edit",
+  "save_changes": "Save Changes",
+  
+  "notifications": "Notifications",
+
+  "new_message": "New message from client {clientName}.",
+  "new_message_desc": "Regarding your recent price offer for job #{jobId}",
+  "new": "New",
+
+ 
+
+  "job_status_update": "Job #{jobId} status updated.",
+  "job_status_update_desc": "The client has confirmed the pickup time. Review",
+
+  "price_offer_sent": "Price offer sent for job #{jobId}.",
+  "price_offer_sent_desc": "Offer for transportation of office furniture to client",
+
+  "critical_maintenance": "Critical system maintenance scheduled.",
+  "critical_maintenance_desc": "Our services will be briefly interrupted on {date} at {time}",
+  
+  "request_details": "Request Details",
+
+  "client_name": "Sarah Johnson",
+  "request_id": "Request ID: {requestId}",
+  "new_request": "New Request",
+
+  "pickup": "Pickup:",
+  "pickup_address": "123 Maple Ave, Cityville, CA",
+
+  "dropoff": "Drop-off:",
+  "dropoff_address": "456 Oak Blvd, Townsville, CA",
+
+  "service_type": "Service Type:",
+  "service_type_value": "Full Home Move",
+
+  "date_time": "Date/Time",
+  "date_time_value": "December 15, 2023, 10:00 AM",
+
+  "notes": "Notes:",
+  "notes_value": "Fragile items included, especially glassware. Needs extra care with antique furniture.",
+
+  "send_offer": "Send Offer",
+  "manage_job": "Manage Job",
+
+
+  
+  "financial_summary": "Financial Summary",
+  "overall_performance": "Overall Performance",
+  "total_amount": "{amount} SAR",
+  "profit_share": "Profit Share",
+  "original_amount": "Original Amount in SAR",
+  "actions": "Actions",
+  "view_report": "View Report",
+
+  "order_id": "Order ID {orderId} {date}",
+  "order_type": "Order Type",
+  "delivery": "Delivery",
+  "shipping": "Shipping",
+  "previous_share": "Previous Share: {amount} SAR",
+  "company_share": "Company Share",
+  "client_share": "Client Share",
+  "total_goods": "Total Goods",
+  "total_amount_value": "Total Amount: {amount} SAR",
+  "payment_invoice": "Pay Invoice",
+
+  "order_details": "Order Details"
+
+}
+
+
+
+
+
+
+
