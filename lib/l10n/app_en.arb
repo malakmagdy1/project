@@ -111,7 +111,6 @@
 
   "register_company": "Register Company",
 
-
   "company_profile": "Company Profile",
 
   "owner_name": "Owner Name",
@@ -131,7 +130,7 @@
 
   "new_message": "New message from client {clientName}.",
   "new_message_desc": "Regarding your recent price offer for job #{jobId}",
-  "new": "New",
+  
 
  
 
