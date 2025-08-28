@@ -132,8 +132,7 @@
 
   "new_message": "رسالة جديدة من العميل {clientName}.",
   "new_message_desc": "بخصوص عرض السعر الأخير الخاص بك للطلب #{jobId}",
-  "new": "جديد",
-
+  
   "job_status_update": "تم تحديث حالة الطلب #{jobId}.",
   "job_status_update_desc": "قام العميل بتأكيد وقت الاستلام. يرجى المراجعة",
 
