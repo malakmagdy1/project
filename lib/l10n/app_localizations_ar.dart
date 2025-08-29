@@ -1,5 +1,6 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
+
 import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -117,13 +118,15 @@ class AppLocalizationsAr extends AppLocalizations {
   String get creditCardOption => 'بطاقة ائتمان/خصم';
 
   @override
-  String get creditCardSubtitle => 'ادفع بأمان عبر الإنترنت باستخدام فيزا أو ماستركارد أو بطاقات أخرى.';
+  String get creditCardSubtitle =>
+      'ادفع بأمان عبر الإنترنت باستخدام فيزا أو ماستركارد أو بطاقات أخرى.';
 
   @override
   String get cashPaymentOption => 'الدفع نقدًا';
 
   @override
-  String get cashPaymentSubtitle => 'ادفع للسائق مباشرةً نقدًا بعد اكتمال الخدمة.';
+  String get cashPaymentSubtitle =>
+      'ادفع للسائق مباشرةً نقدًا بعد اكتمال الخدمة.';
 
   @override
   String get continueToSummary => 'متابعة إلى الملخص';
@@ -132,7 +135,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get addCardTitle => 'أضف تفاصيل بطاقتك';
 
   @override
-  String get addCardSubtitle => 'يتم تشفير معلومات الدفع الخاصة بك وتخزينها بأمان.';
+  String get addCardSubtitle =>
+      'يتم تشفير معلومات الدفع الخاصة بك وتخزينها بأمان.';
 
   @override
   String get cardNumber => 'رقم البطاقة';
@@ -191,13 +195,15 @@ class AppLocalizationsAr extends AppLocalizations {
   String get independent_vehicle_owner => 'مالك مركبة مستقل';
 
   @override
-  String get independent_vehicle_owner_desc => 'أدِر أسطولك، حدّد أسعارك، واقبل الطلبات مباشرةً.';
+  String get independent_vehicle_owner_desc =>
+      'أدِر أسطولك، حدّد أسعارك، واقبل الطلبات مباشرةً.';
 
   @override
   String get registered_transport_company => 'شركة نقل مسجّلة';
 
   @override
-  String get registered_transport_company_desc => 'سجّل شركتك، عرّف خدماتك، ووسّع نطاق وصولك.';
+  String get registered_transport_company_desc =>
+      'سجّل شركتك، عرّف خدماتك، ووسّع نطاق وصولك.';
 
   @override
   String get select_vehicles => 'اختيار المركبات';
@@ -221,7 +227,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get medium_transport => 'متوسطة النقل (شاحنة صندوقية)';
 
   @override
-  String get medium_transport_desc => 'مناسبة لشقق 1-2 غرفة نوم أو معدات مكتبية.';
+  String get medium_transport_desc =>
+      'مناسبة لشقق 1-2 غرفة نوم أو معدات مكتبية.';
 
   @override
   String get medium_transport_capacity => 'حتى 3 أطنان';
@@ -230,7 +237,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get heavy_transport => 'شاحنة كبيرة (صندوقية كبيرة)';
 
   @override
-  String get heavy_transport_desc => 'مثالية للمنازل الكبيرة أو النقل التجاري أو البضائع الثقيلة.';
+  String get heavy_transport_desc =>
+      'مثالية للمنازل الكبيرة أو النقل التجاري أو البضائع الثقيلة.';
 
   @override
   String get heavy_transport_capacity => 'أكثر من 5 أطنان';
@@ -263,7 +271,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get company_address => 'عنوان الشركة';
 
   @override
-  String get company_address_value => '123 شارع رئيسي، أي مدينة، الولايات المتحدة 12345';
+  String get company_address_value =>
+      '123 شارع رئيسي، أي مدينة، الولايات المتحدة 12345';
 
   @override
   String get phone_number => 'رقم الهاتف';
@@ -335,7 +344,8 @@ class AppLocalizationsAr extends AppLocalizations {
   }
 
   @override
-  String get job_status_update_desc => 'قام العميل بتأكيد وقت الاستلام. يرجى المراجعة';
+  String get job_status_update_desc =>
+      'قام العميل بتأكيد وقت الاستلام. يرجى المراجعة';
 
   @override
   String price_offer_sent(Object jobId) {
@@ -395,7 +405,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get notes => 'ملاحظات:';
 
   @override
-  String get notes_value => 'توجد عناصر قابلة للكسر خاصة الزجاجيات. يحتاج الأمر لعناية إضافية مع الأثاث العتيق.';
+  String get notes_value =>
+      'توجد عناصر قابلة للكسر خاصة الزجاجيات. يحتاج الأمر لعناية إضافية مع الأثاث العتيق.';
 
   @override
   String get send_offer => 'إرسال العرض';

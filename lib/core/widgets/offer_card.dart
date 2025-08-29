@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:projectlogo/core/utils/app_color.dart';
-import 'package:projectlogo/core/widgets/custom_button.dart';
 // اتأكدي إن اسم الملف صح:
 import 'package:projectlogo/core/widgets/ratingstarts.dart';
-import 'package:projectlogo/features/presentation/offers.dart';
+import 'package:projectlogo/features/home/presentation/selectPayment.dart';
+
+import '../../features/home/presentation/offers.dart';
+import 'customButton.dart';
 
 class OfferCard extends StatefulWidget {
   final String title;
@@ -47,21 +49,11 @@ class _OfferCardState extends State<OfferCard> {
                 Expanded(
                   child: Text(
                     widget.title,
-                    style: const TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold,
-                    ),
+                    style: Theme.of(context).textTheme.titleMedium,
                     overflow: TextOverflow.ellipsis,
                   ),
                 ),
-   RatingStars(
-  maxStars: 5,
-  size: 18,
-  spacing: 0,
-),
-
-
-
+                RatingStars(maxStars: 5, size: 18, spacing: 0),
 
                 const SizedBox(width: 6),
                 Text(
@@ -76,13 +68,10 @@ class _OfferCardState extends State<OfferCard> {
             // السعر
             Text(
               "${widget.price} دولار",
-              style: const TextStyle(
-                fontSize: 18,
-                color: AppColors.def,
-                fontWeight: FontWeight.bold,
-              ),
+              style: Theme.of(
+                context,
+              ).textTheme.bodyLarge?.copyWith(color: AppColors.def),
             ),
-
             const SizedBox(height: 6),
 
             // الوقت
@@ -102,12 +91,14 @@ class _OfferCardState extends State<OfferCard> {
             // الزرارين تحت بعض وبعرض الكارت
             SizedBox(
               width: double.infinity,
-              child: CustomButton(
-                title: "قبول العرض",
-                onPressed: () {
+              child: Custombutton(
+                text: "قبول العرض",
+                onpress: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const OffersScreen()),
+                    MaterialPageRoute(
+                      builder: (context) => const SelectPayment(),
+                    ),
                   );
                 },
               ),
@@ -115,17 +106,18 @@ class _OfferCardState extends State<OfferCard> {
             const SizedBox(height: 10),
             SizedBox(
               width: double.infinity,
-              child: CustomButton(
-                title: "عرض التفاصيل",
-                onPressed: () {
+              child: Custombutton(
+                backColor: Theme.of(context).colorScheme.surface,
+                textColor: Colors.black,
+                onpress: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const OffersScreen()),
+                    MaterialPageRoute(
+                      builder: (context) => const OffersScreen(),
+                    ),
                   );
                 },
-                // لو `CustomButton` عندك بيدعم الألوان المخصّصة
-                backgroundColor: Colors.white,
-                textColor: AppColors.def,
+                text: "عرض التفاصيل",
               ),
             ),
           ],

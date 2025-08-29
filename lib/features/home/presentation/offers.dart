@@ -7,12 +7,14 @@ class OffersScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width; // 📏 width
+    final screenHeight = MediaQuery.of(context).size.height; // 📏 height
+    final horizontalPadding = screenWidth * 0.04; // 4% padding
+    final verticalSpacing = screenHeight * 0.015; // 1.5% spacing
+
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          ' العروض',
-          style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
-        ),
+        title: Text('العروض', style: Theme.of(context).textTheme.bodyLarge),
         centerTitle: true,
         backgroundColor: Colors.white,
         elevation: 0,
@@ -22,17 +24,22 @@ class OffersScreen extends StatelessWidget {
             Navigator.pop(context);
           },
           color: AppColors.def,
+          iconSize: screenWidth * 0.06, // 📏 responsive icon size
         ),
         actions: [
           IconButton(
             icon: const Icon(Icons.notifications_none),
             onPressed: () {},
             color: AppColors.def,
+            iconSize: screenWidth * 0.065, // 📏 responsive icon size
           ),
         ],
       ),
       body: ListView(
-        padding: const EdgeInsets.all(12),
+        padding: EdgeInsets.symmetric(
+          horizontal: horizontalPadding,
+          vertical: verticalSpacing,
+        ),
         children: [
           OfferCard(
             title: "شركة نقل سريع",
@@ -41,6 +48,7 @@ class OffersScreen extends StatelessWidget {
             rating: 4.8,
             imagePath: "assets/images/car.png",
           ),
+          SizedBox(height: verticalSpacing),
           OfferCard(
             title: "شروق للنقل",
             price: 320,
@@ -48,6 +56,7 @@ class OffersScreen extends StatelessWidget {
             rating: 4.5,
             imagePath: "assets/images/carr.png",
           ),
+          SizedBox(height: verticalSpacing),
           OfferCard(
             title: "خدمات لوجيستية",
             price: 380,
@@ -55,6 +64,7 @@ class OffersScreen extends StatelessWidget {
             rating: 4.9,
             imagePath: "assets/images/carrr.png",
           ),
+          SizedBox(height: verticalSpacing),
           OfferCard(
             title: "نقل التنمية",
             price: 400,
