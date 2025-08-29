@@ -111,19 +111,22 @@ class AppLocalizationsEn extends AppLocalizations {
   String get paymentMethodTitle => 'Select Payment Method';
 
   @override
-  String get paymentMethodSubtitle => 'Choose how you\'d like to pay for the service.';
+  String get paymentMethodSubtitle =>
+      'Choose how you\'d like to pay for the service.';
 
   @override
   String get creditCardOption => 'Credit/Debit Card';
 
   @override
-  String get creditCardSubtitle => 'Pay securely online with Visa, Mastercard, and other major cards.';
+  String get creditCardSubtitle =>
+      'Pay securely online with Visa, Mastercard, and other major cards.';
 
   @override
   String get cashPaymentOption => 'Cash Payment';
 
   @override
-  String get cashPaymentSubtitle => 'Pay the driver directly in cash after the service is completed.';
+  String get cashPaymentSubtitle =>
+      'Pay the driver directly in cash after the service is completed.';
 
   @override
   String get continueToSummary => 'Continue to Summary';
@@ -132,7 +135,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addCardTitle => 'Add Your Card Details';
 
   @override
-  String get addCardSubtitle => 'Your payment information is encrypted and stored securely.';
+  String get addCardSubtitle =>
+      'Your payment information is encrypted and stored securely.';
 
   @override
   String get cardNumber => 'Card Number';
@@ -191,13 +195,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String get independent_vehicle_owner => 'Independent Vehicle Owner';
 
   @override
-  String get independent_vehicle_owner_desc => 'Manage your fleet, set your rates, and accept jobs directly.';
+  String get independent_vehicle_owner_desc =>
+      'Manage your fleet, set your rates, and accept jobs directly.';
 
   @override
   String get registered_transport_company => 'Registered Transport Company';
 
   @override
-  String get registered_transport_company_desc => 'Register your company, define your service offerings, and expand your reach.';
+  String get registered_transport_company_desc =>
+      'Register your company, define your service offerings, and expand your reach.';
 
   @override
   String get select_vehicles => 'Select Vehicles';
@@ -206,13 +212,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String get choose_vehicle_types => 'Choose your vehicle types';
 
   @override
-  String get select_vehicles_desc => 'Select the vehicles and quantities required for your move.';
+  String get select_vehicles_desc =>
+      'Select the vehicles and quantities required for your move.';
 
   @override
   String get small_transport => 'Pickup / Van';
 
   @override
-  String get small_transport_desc => 'Ideal for small apartment moves or single-item transport.';
+  String get small_transport_desc =>
+      'Ideal for small apartment moves or single-item transport.';
 
   @override
   String get small_transport_capacity => 'Up to 1.5 tons';
@@ -221,7 +229,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get medium_transport => 'Box Truck';
 
   @override
-  String get medium_transport_desc => 'Suitable for 1-2 bedroom apartments or office equipment.';
+  String get medium_transport_desc =>
+      'Suitable for 1-2 bedroom apartments or office equipment.';
 
   @override
   String get medium_transport_capacity => 'Up to 3 tons';
@@ -230,7 +239,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get heavy_transport => 'Large Box Truck';
 
   @override
-  String get heavy_transport_desc => 'Perfect for large homes, commercial moves, or heavy cargo.';
+  String get heavy_transport_desc =>
+      'Perfect for large homes, commercial moves, or heavy cargo.';
 
   @override
   String get heavy_transport_capacity => 'Over 5 tons';
@@ -335,7 +345,8 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get job_status_update_desc => 'The client has confirmed the pickup time. Review';
+  String get job_status_update_desc =>
+      'The client has confirmed the pickup time. Review';
 
   @override
   String price_offer_sent(Object jobId) {
@@ -343,7 +354,8 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get price_offer_sent_desc => 'Offer for transportation of office furniture to client';
+  String get price_offer_sent_desc =>
+      'Offer for transportation of office furniture to client';
 
   @override
   String get critical_maintenance => 'Critical system maintenance scheduled.';
@@ -395,7 +407,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get notes => 'Notes:';
 
   @override
-  String get notes_value => 'Fragile items included, especially glassware. Needs extra care with antique furniture.';
+  String get notes_value =>
+      'Fragile items included, especially glassware. Needs extra care with antique furniture.';
 
   @override
   String get send_offer => 'Send Offer';

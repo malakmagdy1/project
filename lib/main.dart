@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:projectlogo/features/presentation/serviceSelection.dart';
-import 'package:projectlogo/l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
+
 import 'core/theme/app_theme.dart' as AppTheme;
 import 'core/theme/setting_provider.dart';
+import 'features/home/presentation/serviceselection.dart';
+import 'l10n/app_localizations.dart';
+
 //flutter gen-l10n
 void main() {
   runApp(
@@ -32,7 +34,8 @@ class MyApp extends StatelessWidget {
           darkTheme: AppTheme.darkTheme,
           themeMode:
               settingProvider.isDark() ? ThemeMode.dark : ThemeMode.light,
-          home:  ServiceSelectionScreen(),
+          home: // SelectPayment()
+              ServiceSelection(),
         );
       },
     );

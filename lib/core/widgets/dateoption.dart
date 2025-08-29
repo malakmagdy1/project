@@ -32,18 +32,15 @@ class DateOption extends StatelessWidget {
           children: [
             Text(
               title,
-              style: TextStyle(
-                fontSize: 16,
-                fontWeight: FontWeight.bold,
+              style: Theme.of(context).textTheme.titleMedium?.copyWith(
                 color: isSelected ? Colors.white : Colors.black,
               ),
             ),
             SizedBox(height: 5),
             Text(
               date,
-              style: TextStyle(
-                fontSize: 14,
-                color: isSelected ? Colors.white : Colors.grey,
+              style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                color: isSelected ? Colors.white : Colors.black,
               ),
             ),
           ],
